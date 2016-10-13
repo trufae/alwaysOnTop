@@ -12,3 +12,12 @@ Usage
 To disable this option:
 
 	$ alwaysOnTop -d TextEdit
+
+TODO
+----
+
+* Implement frida -e
+* Implement frida -q
+* Add setAlpha_() support in alwaysOnTop -a
+
+	ObjC.classes.NSApplication.sharedApplication().windows().objectAtIndex_(0).setAlphaValue_(0.3)
